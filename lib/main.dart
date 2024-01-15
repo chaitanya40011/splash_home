@@ -36,7 +36,7 @@ class SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     Timer(
-      const Duration(seconds: 6),
+      const Duration(seconds: 4),
           () =>
           Navigator.pushReplacement(
             context,
